@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./Ex04.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    >
+</head>
+<body>
 
+<div class="container">
+
+    <h1>Todo App</h1>
+
+    <div class="input-group">
+        <input
+            type="text"
+            id="todoInput"
+            placeholder="Add your new todo"
+        >
+
+        <button id="addBtn">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+    </div>
+
+    <ul id="todoList"></ul>
+
+    <div class="footer">
+        <p id="taskCount">
+            You have 0 pending tasks
+        </p>
+
+        <button id="clearBtn">
+            Clear All
+        </button>
+    </div>
+
+</div>
+
+<script src="./Ex04.js"></script>
+
+</body>
+</html>
