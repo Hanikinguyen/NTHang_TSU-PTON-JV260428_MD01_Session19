@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="./Ex03.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Login</h1>
+
+    <form id="loginForm">
+
+        <label>Email:</label>
+        <input
+            type="text"
+            id="email"
+            placeholder="Enter your email address"
+        >
+        <p class="error" id="errorEmail"></p>
+
+        <label>Password:</label>
+
+        <div class="password-box">
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter your password"
+            >
+
+            <span id="togglePassword">👁️</span>
+        </div>
+
+        <p class="error" id="errorPassword"></p>
+
+        <div class="remember">
+            <input type="checkbox" id="rememberMe">
+            <label for="rememberMe">Remember me (24h)</label>
+        </div>
+
+        <button type="submit">Login</button>
+
+    </form>
+
+    <div class="bottom">
+        <a href="#">Forgot password?</a>
+        <span>or</span>
+        <a href="#">Sign Up</a>
+    </div>
+</div>
+
+<script src="./Ex03.js"></script>
+
+</body>
+</html>
