@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark App</title>
+    <link rel="stylesheet" href="./Ex05.css">
+</head>
+<body>
 
+<div class="container">
+
+    <button id="addBookmarkBtn" class="add-btn">
+        ADD BOOKMARK
+    </button>
+
+    <div id="bookmarkList" class="bookmark-list">
+    </div>
+
+</div>
+
+<!-- Modal -->
+
+<div class="modal hidden" id="modal">
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+            <h2>Add Bookmark</h2>
+            <span id="closeModal">&times;</span>
+        </div>
+
+        <div class="modal-body">
+
+            <label>Website Name</label>
+            <input
+                type="text"
+                id="websiteName"
+            >
+
+            <label>Website URL</label>
+            <input
+                type="text"
+                id="websiteURL"
+                placeholder="https://example.com"
+            >
+
+            <button id="saveBtn">
+                Save
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="./Ex05.js"></script>
+
+</body>
+</html>
